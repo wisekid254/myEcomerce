@@ -31,6 +31,9 @@ img{
 
 .navbar{
     display: flex;
+    align-items: center;
+    padding: 3rem;
+    justify-content: center;
 }
 .navbar a{
     color: var(--text-color);
@@ -141,10 +144,13 @@ img{
     flex-wrap: wrap; /* Allow cards to wrap to the next line */
     justify-content: space-between; /* Distribute cards evenly */
     /* Optional properties for further customization: */
-    gap: 10px; /* Spacing between cards */
+    gap: 3rem; /* Spacing between cards */
     align-items: center; /* Align card content vertically */
-    margin-top: 70px;
+    margin-top: auto;
     background: url(background.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
   }
 
   footer {
@@ -156,12 +162,14 @@ img{
   }
 
   @media (max-width:560px) {
+
     header{
-      flex-direction: row;
-      padding: 30px 8px;
+      flex-direction: column;
+      padding: 0%;
       flex-wrap: wrap;
       height: 120px;
       justify-content: center;
+      align-items: center;
     }
     .search-container{
       margin-top: 0px;

@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>navbar</title>
     <link rel="stylesheet" href="stylenav.css">
+    <link rel="stylesheet" href="./fa-icons/css/all.min.css">
 </head>
 <body style="background-color: lightgreen;">
     <header>
         <a href="#" class="logo"><img src="farmlogo.png" height="70px" width="80px" alt=""><i>KAJEMBE</i></a>
-        <ul class="navbar">
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Help</a></li>
-        </ul>
+      <div class="navbar">
+        <a href="#" class="active">Home <i class="fa-solid fa-house"></i></a>
+        <p>Add To Cart<i class="fa-solid fa-cart-shopping"></i></p>
+       <a href="signup.html"><h5>Create Account</h5> <span class="fa-solid fa-user"></span></a>
+        
+      </div>
+         
+    
         <!-- SEARCH CONTAINER -->
     <div class="search-container">
       <form method="get" action="/search">
@@ -23,8 +27,7 @@
     </div>
 
         <div class="main">
-            <a href="signup.html" class="user">Sign In</a>
-            <a href="signup.html">Register</a>
+            <a href="signup.html"><h5>Create Account</h5> <span class="fa-solid fa-user"></span></a>
             <div class="bx bx-menu" id="menu-icon"></div>
         </div>
     </header>
@@ -35,7 +38,7 @@
         <h1>Welcome to Our website</h1>
         <p>Find all your favorite products here!</p>
         <div class="btn1">
-          <button>BUY NOW</button>
+          <button hreff="search-container">BUY NOW</button>
           <button>SELL TO US</button>
         </div>
       </div>
@@ -82,8 +85,8 @@
               </div>
               <div class="card">
                 <img src="Flower.jpg" alt="Card Image">
-                <h2>Card Title</h2>
-                <p>Card Description</p>
+                <h2>Price: KSH 1500 /=</h2>
+                <p>German Redish-Purple flower</p>
               </div>
               <div class="card">
                 <img src="Chopped.jpg" alt="Card Image">
